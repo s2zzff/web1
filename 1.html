@@ -16,8 +16,8 @@
 
 <h2>HTML이란무엇인가</h2>
 <a href="https://terms.naver.com/entry.nhn?docId=1168097&cid=40942&categoryId=32838" target="_blank" title="HTML">HTML(Hyper Text Markup Languae)</a>은 <strong>가장 단순한 형태의 <u>웹 언어</u></strong>이다. <br><br><p>웹 서버에 HTML 문서를 저장하고 있다가 클라이언가 특정 HTML 페이지를 요청하면 해당 HTML 문서를 클라이언트로 전송한다. </p><p=style"margin-top:45px;">그러면 클라이언트는 이 웹 페이지를 해석하여 웹 브라우저에 표현해 주는데 이런 웹 페이지를 정적인(Static) 웹 페이지라고 한다.</P>
-etc<br>
-
+<br>
+<a href="https://blog.naver.com/wooin21s" target="_blank" title ="HTML참조사이트"><strong>HTML참조사이트</strong></a>
 <h2>!!TAG모음집!!</h2>
 <h4>TAG : 설명하다 </h4>
 <img src="coding.jpg"width=100%>
@@ -42,30 +42,41 @@ etc<br>
 title과 meta는 본문이 아니라 본문을 설명하는 내용의 태그이다.<br>
 html은 본문과 본문을 설명하는 태그를 구분함.</li>
 </p><p>
-<li>div		:
+<li>div		: 영역을 설정, 줄 바꿈 기능 가능, 사각형박스로 구역지정
 <br>89.9%</li>
 </p><p>
 <li>a		: anchor(닻),link삽입
 <br>89.6%<br>
 target="_blank"는 링크를 클릭했을 때
-새창에서 페이지가 열리게 하는 속성입니다.
- title은
-이 링크가 어떤 내용을 담고 있는지를
-툴팁으로 보여주는 기능입니다.</li>
+새창에서 페이지가 열리게 하는 속성입니다.<br>
+ title은 이 링크가 어떤 내용을 담고 있는지를 툴팁으로 보여주는 기능입니다.</li>
 </p><p>
-<li>script		:
+<li>script		: 스크립트삽입
+
 <br>88.5%</li>
-</p><p>
-<li>link		:
-<br>86.5%</li>
-</p><p>
+</p>
+
+<p>
+<li>link		: link요소는 다른 리소스와의 연결을 위해 사용
+<br>86.5%<br>
+- href : 링크의 목적지를 나타냅니다.<br>
+- media : 어떤 매체에 적용되는지 나타냅니다.<br>
+- rel : 링크된 대상의 관계를 나타냅니다.<br>
+- type : MIME 타입을 나타냅니다.<br>
+☞ 설명 :<br>
+- 주로 외부스타일시트나 대체문서 또는 작성자 지정하기위해 사용됩니다.<br>
+- href, rel 속성은 반드시 존재해야 합니다.<br>
+</li>
+</p>
+
+<p>
 <li>img		: 이미지를 웹페이지에 추가할때 쓰는 태그
 <br>86.3%</li>
 </p><p>
 <li>p		: paragraph tag, 단락을 나눔, 줄바꿈보다 정보로서 더 가치있음
 <br>81.5%</li>
 </p><p>
-<li>span		:
+<li>span		: 영역을 설정, 줄바꿈 기능 불가, 문장단위로 구역지정
 <br>75.6%</li>
 </p><p>
 <li>li		:목차,list
@@ -78,44 +89,64 @@ target="_blank"는 링크를 클릭했을 때
 <li>br		: 줄바꿈, 닫기 기능 필요없음
 <br>70.3%</li>
 </p><p>
-<li>style		:
+<li>style		: style 요소는 스타일 정보를 문서에 포함<br>
+  - media : 스타일이 적용될 매체를 나타냅니다.<br>
+  - type : 스타일 언어를 나타냅니다.<br>
+  - scoped : 불리언 속성으로, 이것이 설정되었다면 문서 전체가 아니라 스타일 요소의 부모요소에서 나온 서브트리에만 적용됩니다.<br>
+  ☞ 설명 :<br>
+  - media속성이 생략되었다면 기본값은 "all"입니다.<br>
+  - type속성이 존재하지 않는다면, 기본값은 "text/css"입니다.<br>
 <br>60.4%</li>
 </p><p>
 <li>h1		: h1 ~ h6요소는 각 섹션의 제목
 <br>55.8%</li>
 </p><p>
-<li>h2		:
+<li>h2    : h1 ~ h6요소는 각 섹션의 제목
 <br>52.7%</li>
 </p><p>
-<li>input		:
+<li>input		:<a href="https://blog.naver.com/wooin21s/221304394948" target="_blank" title ="form">여기참조</a>
 <br>48.4%</li>
 </p><p>
-<li>form		:
+<li>form		:<a href="https://blog.naver.com/wooin21s/221304359420" target="_blank" title ="form">여기참조</a>
 <br>46.9%</li>
 </p><p>
 <li>strong	: 진하게
 <br>44.3%</li>
 </p><p>
-<li>h3		:
+<li>h3		: h1 ~ h6요소는 각 섹션의 제목
 <br>43.1%</li>
 </p><p>
-<li>table		:
+<li>table		:table요소는 1차원 이상의 데이터를 표의 형태로 나타냅니다.<br>
+  - media : 스타일이 적용될 매체를 나타냅니다.<br>
+  - type : 스타일 언어를 나타냅니다.<br>
+  - scoped : 불리언 속성으로, 이것이 설정되었다면 문서 전체가 아니라 스타일 요소의 부모요소에서 나온 서브트리에만 적용됩니다.<br>
+  - 테이블 요소를 레이아웃을 목적으로 사용해서는 안됩니다.<br>
+  - 테이블은 다음 요소를 포함하고 있습니다.<br>
+   ◦tr요소 : row (횡렬의 셀)로 정의<br>
+  - th요소 : column (종렬의 셀)으로 제목셀을 정의<br>
+  - td요소 : cell (표안의 항목)로 데이터셀을 정의<br>
+  - caption요소 : 표의 제목을 정의<br>
+  - thead요소 : 헤더행을 그룹화하여 정의<br>
+  - tfoot요소 : 푸터행을 그룹화하여 정의<br>
+  - tbody요소 : 본체행을 그룹화하여 정의<br>
+  - col요소 : 열의 속성값과 스타일을 위한 그룹화<br>
+  - colgroup요소 : 열의 구조적 그룹화. col요소를 포함할 수 있다.<br>
+
 <br>30.9%</li>
 </p><p>
-<li>tr		:
+<li>tr		: table참조
 <br>30.3%</li>
 </p><p>
-<li>td		:
+<li>td		: table참조
 <br>30.2%</li>
 </p><p>
 </ol>
+<br>
 ETC...
 <br>U		: 밑줄
 </p>
 <p>
-또 이 웹페이지가
-HTML로서 만들어졌다는 것을
-표현하기 위해서  문서의 시작에 아래와 같은 코드를 추가합니다.<br>
+또 이 웹페이지가HTML로서 만들어졌다는 것을 표현하기 위해서  문서의 시작에 아래와 같은 코드를 추가합니다.<br>
 !doctype html</p>
 
 
